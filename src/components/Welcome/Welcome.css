@@ -1,0 +1,140 @@
+/* Styles pour la page d'accueil (HomePage.js) */
+.gender-selection {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.gender-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 350px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Ombre pour la profondeur */
+}
+
+/* Styles au survol */
+.gender-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Styles pour les icônes */
+.icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Styles spécifiques pour chaque boîte */
+.female-box {
+  border: 2px solid #ff8cc6;
+}
+
+.male-box {
+  border: 2px solid #4fe8ca;
+}
+
+/* Styles pour la description de l'application */
+.app-description {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.app-description p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Ajoutez d'autres styles spécifiques au HomePage.js ici */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.socials > * {
+  border-radius: 100%;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Styles pour les icônes */
+.icon {
+  font-size: 36px; /* Ajustez la taille des icônes selon vos préférences */
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out; /* Ajoutez une transition pour une animation fluide */
+}
+
+/* Styles pour les icônes au survol */
+.icon:hover {
+  transform: scale(1.1); /* Zoom légèrement au survol */
+  cursor: pointer;
+}
+
+/* Styles pour les liens sociaux */
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Styles pour les icônes sociales */
+.social-icon {
+  font-size: 24px; /* Ajustez la taille des icônes sociales selon vos préférences */
+  color: #333; /* Couleur par défaut des icônes */
+  transition: color 0.2s ease-in-out; /* Ajoutez une transition pour changer la couleur au survol */
+}
+
+/* Styles pour les icônes sociales au survol */
+.social-icon:hover {
+  color: #007bff; /* Couleur au survol */
+}
+/* Styles pour le texte "Support" */
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Espacement par rapport aux autres icônes */
+  font-weight: bold;
+  font-size: 14px;
+  color: #333; /* Couleur du texte */
+
+  transition: transform 0.2s; /* Animation de survol */
+}
+
+/* Style de l'icône d'envoi de courrier (BiMailSend) */
+.support-icon {
+  font-size: 24px; /* Taille de l'icône */
+  margin-top: 5px; /* Espacement entre le texte et l'icône */
+  transition: transform 0.2s; /* Animation de survol */
+}
+
+/* Animation de survol pour l'ensemble du support */
+.support:hover {
+  transform: scale(1.1); /* Agrandissement au survol */
+  cursor: pointer;
+}
+
+/* Animation de survol pour l'icône d'envoi de courrier */
+.support:hover .support-icon {
+  transform: scale(1.2); /* Agrandissement au survol */
+}
+/* Style pour le paragraphe */
