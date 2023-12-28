@@ -66,7 +66,7 @@ async function getRandomJSONObjectsByGender(gender) {
       const shuffledObjects = shuffleArray(filteredObjects);
 
       // Get the first 25 objects (or less if there are fewer than 25)
-      const randomObjects = shuffledObjects.slice(0, 50);
+      const randomObjects = shuffledObjects.slice(0, 15);
 
       return randomObjects;
     } else {
