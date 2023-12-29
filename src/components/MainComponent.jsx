@@ -217,7 +217,7 @@ const MainComponent = ({ gender }) => {
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   };
   return imagesLoaded ? (
-    activeUser >= 0 && activeUser <= 49 ? (
+    activeUser >= 0 && activeUser <= 14 ? (
       people[activeUser] && (
         <div
           className="person"
